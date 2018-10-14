@@ -1,18 +1,231 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>MCUSH Homepage</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  <link rel="stylesheet" href="/css/style.css">
-</head>
+<html lang="zh_cn">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <meta name="fragment" content="!">
+        <title>MCUSH Homepage</title>
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="shortcut icon" href="images/favicon.ico"/>
+        <link rel="stylesheet" href="styles/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/animate.min.css">
+        <link rel="stylesheet" href="styles/owl.carousel.css">
+        <link rel="stylesheet" href="styles/owl.theme.css">
+        <link rel="stylesheet" href="styles/bootstrap-off-canvas-nav.css">
+        <link rel="stylesheet" href="styles/main.min.css">
+        <script src="scripts/jquery.min.js"></script>
+        <script src="scripts/bootstrap.min.js"></script>
+        <script src="scripts/owl.carousel.js"></script>
+        <script src="scripts/site.js"></script>
+        <script src="scripts/index.js"></script>
+    </head>
+    <body data-spy="scroll" data-target="#header" data-offset="0" class="off-canvas-nav-left">
+        <nav id="header" class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Navigator bar</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a id="homeLink" href="#home" class="navbar-brand">
+                        <img class="logo" src="images/logo_txt.png"/>
+                    </a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#product">Product</a>
+                            <ul class="dropdown-menu animated fadeIn">
+                                <li><a href="shell-kit/index.html">Shell Kit</a></li>
+                                <li><a href="shell-lab/index.html">Shell Lab</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#solution">Solution</a>
+                            <ul class="dropdown-menu animated fadeIn">
+                                <li><a href="solution/education.html">Education</a></li>
+                                <li><a href="solution/laboratory.html">Laboratory</a></li>
+                                <li><a href="solution/test.html">Test</a></li>
+                                <li><a href="solution/development.html">Development</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#service">Service</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/pengshulin/mcush">Github</a>
+                        </li>
+                        <li class="active">
+                            <a href="index_cn.html">中文</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="content">
+            <div id="home">
+                <div class="owl-container owl-carousel owl-theme">
+                    <div>
+                        <img class="img-responsive" src="images/slide_01.jpg"></img>
+                        <div class="carousel-caption">
+                            <p class="caption-title truncated-desc">
+                                Full-stack open source solutions
+                            </p>
+                            <p class="caption-desc truncated-desc">
+                                All open sourced from hardware, firmware, test script to user-end application.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <img class="img-responsive" src="images/slide_02.jpg"></img>
+                        <div class="carousel-caption" >
+                            <p class="caption-title truncated-desc">
+                                Configuration and extendable architecture
+                            </p>
+                            <p class="caption-desc truncated-desc">
+                                FreeRTOS based, shell equipped, ready for new applications.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <img class="img-responsive" src="images/slide_03.jpg"></img>
+                        <div class="carousel-caption">
+                            <p class="caption-title truncated-desc">
+                                Easy to design and test
+                            </p>
+                            <p class="caption-desc truncated-desc">
+                                Python script based environment, suitable for both begineers and experts.
+                            </p>
+                        </div>
+                    </div>
 
-<body>
-
-	the homepage is in development
-	
-</body>
+                </div>
+            </div>
+            <div id="product" class="section dark">
+                <h1 class="section-title">Product</h1>
+                <div class="section-desc">
+                    <div class="block-wrapper">
+                        <div class="box-item">
+                            <div class="caption-title education">Shell Kit</div>
+                            <div class="caption-desc">
+                            Shell Kit
+                            </div>
+                        </div>
+                        <div class="box-item">
+                            <div class="caption-title laboratory">Shell Lab</div>
+                            <div class="caption-desc">
+                            Shell Lab
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="solution" class="section tint_blue">
+                <h1 class="section-title">Solution</h1>
+                <div class="section-desc">
+                    <div class="block-wrapper">
+                        <div class="box-item">
+                            <div class="caption-title education">Education</div>
+                            <div class="caption-desc">
+                            kids/students study python and make electronic modules experiments with Shell Kit 
+                            </div>
+                        </div>
+                        <div class="box-item">
+                            <div class="caption-title laboratory">Laboratory</div>
+                            <div class="caption-desc">
+                            scientists/teachers make laboratory experiments/tests with Shell Lab 
+                            </div>
+                        </div>
+                        <div class="box-item">
+                            <div class="caption-title test">Test</div>
+                            <div class="caption-desc">
+                            product engineers use Shell Lab to setup test automation environments
+                            </div>
+                        </div>
+                        <div class="box-item">
+                            <div class="caption-title design">Design</div>
+                            <div class="caption-desc">
+                            merge MCUSH into your product to speedup your development/tests (this needs commercial authorization)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="service" class="section dark">
+                <h1 class="section-title">Service</h1>
+                <div class="section-desc">
+                    <div class="block-wrapper">
+                        <div class="box-item">
+                            <div class="caption-title service">Firmware development</div>
+                            <div class="caption-desc">
+                            Prototype design, firmware development based on MCUSH platform.
+                            </div>
+                        </div>
+                        <div class="box-item">
+                            <div class="caption-title service">PC tools development</div>
+                            <div class="caption-desc">
+                            Design PC-based tests/applications that communicate with the firmware.
+                            </div>
+                        </div>
+                        <div class="box-item">
+                            <div class="caption-title service">Authorization</div>
+                            <div class="caption-desc">
+                            We provide commercial authorization for use of MCUSH-based products.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--
+            <div id="about" class="section">
+                <h1 class="section-title">About us</h1>
+                <div class="section-desc">
+                    <div class="block-wrapper">
+                    </div>
+                </div>
+            </div>
+            -->
+        </div>
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 hidden-xs">
+                        <ul id="siteLink">
+                            <li><b>MCUSH</b></li>
+                            <li><a href="#product">Product</a></li>
+                            <li><a href="#solution">Solution</a></li>
+                            <li><a href="#service">Service</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 hidden-xs">
+                        <ul>
+                            <li><b>Brocher</b></li>
+                            <li><a href="doc/mcush_brocher.pdf" target="_blank">MCUSH brocher(pdf)</a></li>
+                            <li><b>Manual</b></li>
+                            <li><a href="doc/mcush_manual.pdf" target="_blank">MCUSH manual(pdf)</a></li>
+                        </ul>
+                    </div>
+                    <div id="contact" class="col-xs-12 col-sm-3">
+                        <ul>
+                            <li><b>Contact us:</b></li>
+                            <li>Tel: +86-13764337830 (Mr. Peng)</a></li>
+                            <li>Email: <a href="mailto:mcu_shell@163.com">mcu_shell@163.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <img class="img-responsive" src="images/qrcode.png" alt="http://mcush.com">
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <script>
+                    $("#footer .copyright").text("© " + new Date().getFullYear() + " MCUSH Development Team");
+                </script>
+            </div>
+        </footer>
+        </div>
+    </body>
 </html>
