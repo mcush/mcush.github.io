@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh_cn">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <meta name="fragment" content="!">
+        <title>Shell Kit 首页</title>
+        <link rel="icon" href="../images/logo_inv_64.png">
+        <link rel="shortcut icon" href="../images/logo_inv_64.png"/>
+        <link rel="stylesheet" href="../styles/bootstrap.min.css">
+        <link rel="stylesheet" href="../styles/animate.min.css">
+        <link rel="stylesheet" href="../styles/bootstrap-off-canvas-nav.css">
+        <link rel="stylesheet" href="../styles/main.min.css">
+        <script src="../scripts/jquery.min.js"></script>
+        <script src="../scripts/bootstrap.min.js"></script>
+        <script src="../scripts/site.js"></script>
+        <script src="../scripts/index.js"></script>
+    </head>
+    <body data-spy="scroll" data-target="#header" data-offset="0" class="off-canvas-nav-left">
+        <nav id="header" class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Navigator bar</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a id="homeLink" href="#home" class="navbar-brand">
+                        <img class="logo" src="../images/logo_txt.png"/>
+                    </a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#hardware">硬件</a>
+                        </li>
+                        <li>
+                            <a href="#software">软件</a>
+                        </li>
+                        <li>
+                            <a href="#videos">视频</a>
+                        </li>
+                        <li>
+                            <a href="#exercises">练习</a>
+                        </li>
+                        <li>
+                            <a href="#sales">销售</a>
+                        </li>
+                        <li>
+                            <a href="./index.html">English</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="content">
+            <div id="brief" class="section dark_blue">
+                <h1 class="section-title">简介</h1>
+                <div class="section-desc">
+                    <div class="block-wrapper">
+                    Shell Kit是专为儿童/学生学习Python编程而设计的开发套件，能帮助孩子们提高编程兴趣，激发设计灵感。<br>
+                    套件核心是基于MCUSH平台设计的微型控制器，辅助常见的电子模块，配有一款易用的上位机软件，具有开箱即用、快速上手、寓教娱乐的特点。<br>
+                    具有Python编程基础的学生在Shell Kit的帮助下，可以快速使用Python控制硬件，包括：<br>
+                    点亮LED灯、控制继电器、检测按键、转动舵机、蜂鸣器、段码LED显示、点阵LED绘图、灯带控制……
+                    </div>
+                </div>
+            </div>
+            <div id="hardware" class="section tint_blue">
+                <h1 class="section-title">硬件</h1>
+                <div class="section-desc">
+                    <div class="block-wrapper">
+                        <img style='max-width:100%' src='https://raw.githubusercontent.com/mcush/shell_kit/master/img/contents.jpg'/>
+                        <img style='max-width:100%' src='https://raw.githubusercontent.com/mcush/shell_kit/master/img/box.jpg'/><br>
+                        基础套件包含：<br>
+                        <table border="1" align='center'>
+                        <tr> <td>MCUSH微型控制器</td> <td>1台</td> </tr>
+                        <tr> <td>按键模块（红/绿）</td> <td>2个</td> </tr>
+                        <tr> <td>三色交通灯模块</td> <td>1个</td> </tr>
+                        <tr> <td>5V继电器模块</td> <td>1个</td> </tr>
+                        <tr> <td>4位段码LED模块</td> <td>1个</td> </tr>
+                        <tr> <td>8x8点阵LED模块</td> <td>1个</td> </tr>
+                        <tr> <td>舵机</td> <td>1个</td> </tr>
+                        <tr> <td>8位彩色灯带模块</td> <td>1个</td> </tr>
+                        <tr> <td>杜邦线（红/黑/黄/绿）</td> <td>20根</td> </tr>
+                        <tr> <td>USB线</td> <td>1根</td> </tr>
+                        </table>
+                        整个套件收纳在迷你塑料盒中，便于携带。
+                    </div>
+                </div>
+            </div>
+            <div id="software" class="section dark_blue">
+                <h1 class="section-title">软件</h1>
+                <div class="section-desc">
+                    <div class="block-wrapper">
+                        <img style='max-width:100%' src='https://raw.githubusercontent.com/mcush/shell_kit/master/img/software.jpg'/><br>
+                        工作台软件布局：左侧为控制器端口复用功能提示，中间编辑代码，右侧为控制按钮区。<br>
+                        <table border="0" align='center'>
+                        <tr> <td align='left'>
+                            操作流程：<br>
+                            <li>将控制器与PC相连，根据提示安装驱动，生成虚拟串口号。</li>
+                            <li>按照端口提示，将电子模块与控制器相连，点击“加载示范”，选择相应代码。</li>
+                            <li>点击“运行”，即可看到运行效果。</li>
+                        </td> </tr>
+                        </table>
+                        <br>
+                        软件自带了众多示范代码，期待你的尝试：<br>
+                        <img style='max-width:100%' src='https://raw.githubusercontent.com/mcush/shell_kit/master/img/load_menu.png'/>
+                    </div>
+                </div>
+            </div>
+            <div id="videos" class="section tint_blue">
+                <h1 class="section-title">视频</h1>
+                <div class="section-desc">
+                    <div class="block-wrapper">
+                      <p>
+                        <div class="box-item">
+                            <div class="caption-title video">交通灯</div>
+                            <div class="caption-desc">
+                                <img style='max-width:100%' src='https://raw.githubusercontent.com/mcush/shell_kit/master/thumbnail/traffic_lights.jpg'/>
+                                <br>模拟交通灯基本功能
+                            </div>
+                        </div><!--
+                     --><div class="box-item">
+                            <div class="caption-title video">继电器</div>
+                            <div class="caption-desc">
+                                <img style='max-width:100%' src='https://raw.githubusercontent.com/mcush/shell_kit/master/thumbnail/key_controlled_relay.jpg'/>
+                                <br>按键控制的延时继电器
+                            </div>
+                        </div><!--
+                     --><div class="box-item">
+                            <div class="caption-title video">舵机</div>
+                            <div class="caption-desc">
+                                <img style='max-width:100%' src='https://raw.githubusercontent.com/mcush/shell_kit/master/thumbnail/servo_motor.jpg'/>
+                                <br>控制舵机转动
+                            </div>
+                        </div><!--
+                     --><div class="box-item">
+                            <div class="caption-title video">LED段码</div>
+                            <div class="caption-desc">
+                                <img style='max-width:100%' src='https://raw.githubusercontent.com/mcush/shell_kit/master/thumbnail/led_segment_counter.jpg'/>
+                                <br>段码LED计数器
+                            </div>
+                        </div>
+                      </p>
+                      <p>
+                        <div class="box-item">
+                            <div class="caption-title video">LED点阵8x8</div>
+                            <div class="caption-desc">
+                                <img style='max-width:100%' src='https://raw.githubusercontent.com/mcush/shell_kit/master/thumbnail/led_matrix_binary_counter.jpg'/>
+                                <br>2/16进制计数器演示
+                            </div>
+                        </div>
+                        <div class="box-item">
+                            <div class="caption-title video">LED点阵8x8</div>
+                            <div class="caption-desc">
+                                <img style='max-width:100%' src='https://raw.githubusercontent.com/mcush/shell_kit/master/thumbnail/led_matrix_draw_triangle.jpg'/>
+                                <br>用画线函数画三角形
+                            </div>
+                        </div>
+                        <div class="box-item">
+                            <div class="caption-title video">LED点阵8x8</div>
+                            <div class="caption-desc">
+                                <img style='max-width:100%' src='https://raw.githubusercontent.com/mcush/shell_kit/master/thumbnail/led_matrix_blink_heart.jpg'/>
+                                <br>用绘图函数画闪动爱心
+                            </div>
+                        </div>
+                      </p>
+                      <p>
+                        <div class="box-item">
+                            <div class="caption-title video">LED点阵32x8</div>
+                            <div class="caption-desc">
+                                <img style='max-width:100%' src='https://raw.githubusercontent.com/mcush/shell_kit/master/thumbnail/led_matrix_random_pixel.jpg'/>
+                                <br>显示随机像素
+                            </div>
+                        </div>
+                        <div class="box-item">
+                            <div class="caption-title video">LED点阵32x8</div>
+                            <div class="caption-desc">
+                                <img style='max-width:100%' src='https://raw.githubusercontent.com/mcush/shell_kit/master/thumbnail/led_matrix_draw_string.jpg'/>
+                                <br>显示滚动字符串（水平）
+                            </div>
+                        </div>
+                        <div class="box-item">
+                            <div class="caption-title video">LED点阵32x8</div>
+                            <div class="caption-desc">
+                                <img style="max-width:100%" src='https://raw.githubusercontent.com/mcush/shell_kit/master/thumbnail/led_matrix_digital_clock.jpg'/>
+                                <br>显示数字时钟
+                            </div>
+                        </div>
+                      </p>
+                      <p>
+                        <div class="box-item">
+                            <div class="caption-title video">LED灯带</div>
+                            <div class="caption-desc">
+                                <img style='max-width:100%' src='https://raw.githubusercontent.com/mcush/shell_kit/master/thumbnail/led_strap_rainbow.jpg'/>
+                                <br>彩虹效果
+                            </div>
+                        </div>
+                        <div class="box-item">
+                            <div class="caption-title video">LED灯带</div>
+                            <div class="caption-desc">
+                                <img style='max-width:100%' src='https://raw.githubusercontent.com/mcush/shell_kit/master/thumbnail/led_strap_random.jpg'/>
+                                <br>变换随机颜色
+                            </div>
+                        </div>
+                      </p>
+                        <p>
+                            <a href='https://github.com/mcush/shell_kit/tree/master/demo_video'>点击这里，查看更多视频……</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="exercises" class="section dark_blue">
+                <h1 class="section-title">练习题</h1>
+                <div class="section-desc">
+                    <div class="block-wrapper">
+                        <p><b>练习题</b></p>
+                        <div class="box-item">
+                            <div class="caption-title exercise">交通灯</div>
+                            <div class="caption-desc">
+                                在演示代码基础上增加10秒倒计时闪灯提示
+                            </div>
+                        </div>
+                        <div class="box-item">
+                            <div class="caption-title exercise">LED段码</div>
+                            <div class="caption-desc">
+                                按键控制的计数器 
+                            </div>
+                        </div>
+                        <div class="box-item">
+                            <div class="caption-title exercise">LED点阵8x8</div>
+                            <div class="caption-desc">
+                                绘制位图
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div id="download" class="hidden-xs col-sm-4">
+                        <ul>
+                            <li><b>工作台软件</b></li>
+                            <li><a href="http://github.com/mcush/shell_kit/tree/master/app_dist" target="_blank">shell_kit_setup.exe</a></li>
+                            <li><b>练习题</b></li>
+                            <li><a href="doc/exercises.pdf" target="_blank">Shell Kit Exercises (pdf)</a></li>
+                        </ul>
+                    </div>
+                    <div id="sales" class="col-xs-12 col-sm-4">
+                        <ul>
+                            <li><b>销售</b></li>
+                            <li>电话: +86-15001867884 (彭先生)</a></li>
+                            <li>电子邮件: <a href="mailto:mcu_shell@163.com">mcu_shell@163.com</a></li>
+                            <li>eBay店: <a href=''>ebay store</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <img class="img-responsive" src="images/qrcode.png" alt="http://mcush.com/shell-kit">
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <script>
+                    $("#footer .copyright").text("© " + new Date().getFullYear() + " MCUSH 开发团队");
+                </script>
+            </div>
+        </footer>
+        </div>
+    </body>
+</html>
