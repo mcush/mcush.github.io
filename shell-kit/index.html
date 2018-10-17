@@ -60,7 +60,11 @@
                 <h1 class="section-title">Brief</h1>
                 <div class="section-desc">
                     <div class="block-wrapper">
-                    <b>Not finished yet</b>
+                    Shell Kit is the development toolkit specially designed for kids/students who are studying Python programming. <br>
+                    It can help to improve their interests in programming and inspire their creatvity.<br>
+                    The core of the kit is a mini controller based on MCUSH platform.  With some commonly-used electronic modules and an easy-to-use software, the kit is easy to use and handle.  Kids can study programming with fun.<br>
+                    With the help of Shell Kit, students with the basic knowledge of Python programming can quickly control real hardware with Python, including:<br>
+                    light up LEDs, control relay, detect button press, rotate the servo motor, beep sound, display on segment LED, draw bitmap on matrix LED, control LED strap...
                     </div>
                 </div>
             </div>
@@ -68,7 +72,22 @@
                 <h1 class="section-title">Hardware</h1>
                 <div class="section-desc">
                     <div class="block-wrapper">
-                        <img src='https://raw.githubusercontent.com/mcush/shell_kit/master/img/contents.jpg'/>
+                        <img style='max-width:100%' src='https://raw.githubusercontent.com/mcush/shell_kit/master/img/contents.jpg'/>
+                        <img style='max-width:100%' src='https://raw.githubusercontent.com/mcush/shell_kit/master/img/box.jpg'/><br>
+                        Basic set contains:<br>
+                        <table border="1" align='center'>
+                        <tr> <td>MCUSH Tiny controller</td> <td>1 pc</td> </tr>
+                        <tr> <td>Button module (red/green)</td> <td>2 pc</td> </tr>
+                        <tr> <td>Tri-color traffic lights module</td> <td>1 pc</td> </tr>
+                        <tr> <td>5V Relay module</td> <td>1 pc</td> </tr>
+                        <tr> <td>4 digits segment LED module</td> <td>1 pc</td> </tr>
+                        <tr> <td>8x8 matrix LED module</td> <td>1 pc</td> </tr>
+                        <tr> <td>Micro servo motor</td> <td>1 pc</td> </tr>
+                        <tr> <td>8bit color LED strap module</td> <td>1 pc</td> </tr>
+                        <tr> <td>Dubond line (red/black/yellow/green)</td> <td>20 pc</td> </tr>
+                        <tr> <td>USB cable</td> <td>1 pc</td> </tr>
+                        </table>
+                        The whole set is collected in a mini plastic box, that's easy to carry.
                     </div>
                 </div>
             </div>
@@ -76,6 +95,20 @@
                 <h1 class="section-title">Software</h1>
                 <div class="section-desc">
                     <div class="block-wrapper">
+                        <img style='max-width:100%' src='https://raw.githubusercontent.com/mcush/shell_kit/master/img/software.jpg'/><br>
+                        The layout of the workbench software:<br>
+                        Left: Additional functions of the controller ports; Middle: Edit your code; Right: Control buttons<br>
+                        <table border="0" align='center'>
+                        <tr> <td align='left'>
+                            Operation sequence:<br>
+                            <li>Connect the controller with PC, install driver following the direction, and a virtual serial port should be finally generated.</li>
+                            <li>As the connection diagram shows, connect electronic modules with the controller, click "Load example" and select the corresponding code.</li>
+                            <li>Click "Run", you will see the result.</li>
+                        </td> </tr>
+                        </table>
+                        <br>
+                        The software is equipped with various example codes, waiting for your try:<br>
+                        <img style='max-width:100%' src='https://raw.githubusercontent.com/mcush/shell_kit/master/img/load_menu.png'/>
                     </div>
                 </div>
             </div>
@@ -84,83 +117,111 @@
                 <div class="section-desc">
                     <div class="block-wrapper">
                         <div class="box-item">
-                            <div class="caption-title video">LED</div>
-                            <div class="caption-desc">
-                                Blink LEDs<br>
-                                <img src='https://raw.githubusercontent.com/mcush/shell_kit/master/thumbnail/LED Light up.jpg'/>
-                            </div>
-                        </div>
-                        <div class="box-item">
                             <div class="caption-title video">Traffic lights</div>
                             <div class="caption-desc">
-
+                                <a href='https://raw.githubusercontent.com/mcush/shell_kit/master/demo_video/3A - Traffic lights control.mkv'>
+                                <img style='max-width:100%' src='https://raw.githubusercontent.com/mcush/shell_kit/master/thumbnail/traffic_lights.jpg'/>
+                                </a>
+                                <br>simulate basic traffic lights
                             </div>
                         </div>
                         <div class="box-item">
                             <div class="caption-title video">Relay</div>
                             <div class="caption-desc">
-                                Key controlled relay<br>
+                                <a href='https://raw.githubusercontent.com/mcush/shell_kit/master/demo_video/2C - Key controlled relay.mkv'>
+                                <img style='max-width:100%' src='https://raw.githubusercontent.com/mcush/shell_kit/master/thumbnail/key_controlled_relay.jpg'/>
+                                </a>
+                                <br>key controlled relay
                             </div>
                         </div>
                         <div class="box-item">
                             <div class="caption-title video">Servo motor</div>
                             <div class="caption-desc">
-
+                                <a href='https://raw.githubusercontent.com/mcush/shell_kit/master/demo_video/5B - PWM servo motor step.mkv'>
+                                <img style='max-width:100%' src='https://raw.githubusercontent.com/mcush/shell_kit/master/thumbnail/servo_motor.jpg'/>
+                                </a>
+                                <br>make servo motor swing
                             </div>
                         </div>
                         <div class="box-item">
                             <div class="caption-title video">LED Segment</div>
                             <div class="caption-desc">
-
+                                <a href='https://raw.githubusercontent.com/mcush/shell_kit/master/demo_video/6A - LED Segment counter.mkv'>
+                                <img style='max-width:100%' src='https://raw.githubusercontent.com/mcush/shell_kit/master/thumbnail/led_segment_counter.jpg'/>
+                                </a>
+                                <br>segment LED counter
                             </div>
                         </div>
                         <div class="box-item">
                             <div class="caption-title video">LED Matrix 8x8</div>
                             <div class="caption-desc">
-                                binary counter demo
+                                <a href='https://raw.githubusercontent.com/mcush/shell_kit/master/demo_video/7A - LED Matrix 8x8 binary counter.mkv'>
+                                <img style='max-width:100%' src='https://raw.githubusercontent.com/mcush/shell_kit/master/thumbnail/led_matrix_binary_counter.jpg'/>
+                                </a>
+                                <br>binary counter demo
                             </div>
                         </div>
                         <div class="box-item">
                             <div class="caption-title video">LED Matrix 8x8</div>
                             <div class="caption-desc">
-                                rotating rectangle
+                                <a href='https://raw.githubusercontent.com/mcush/shell_kit/master/demo_video/7D - LED Matrix 8x8 draw triangle.mkv'>
+                                <img style='max-width:100%' src='https://raw.githubusercontent.com/mcush/shell_kit/master/thumbnail/led_matrix_draw_triangle.jpg'/>
+                                </a>
+                                <br>rotating rectangle with draw line function
                             </div>
                         </div>
                         <div class="box-item">
                             <div class="caption-title video">LED Matrix 8x8</div>
                             <div class="caption-desc">
-                                falling raindrops
+                                <a href='https://raw.githubusercontent.com/mcush/shell_kit/master/demo_video/7B - LED Matrix 8x8 blinking heart.mkv'>
+                                <img style='max-width:100%' src='https://raw.githubusercontent.com/mcush/shell_kit/master/thumbnail/led_matrix_blink_heart.jpg'/>
+                                </a>
+                                <br>blink heart animation with draw bitmap function
                             </div>
                         </div>
                         <div class="box-item">
                             <div class="caption-title video">LED Matrix 32x8</div>
                             <div class="caption-desc">
-                                display random pixel
-                                <img src='https://raw.githubusercontent.com/mcush/shell_kit/master/thumbnail/Blink LEDs.jpg'/>
+                                <a href='https://raw.githubusercontent.com/mcush/shell_kit/master/demo_video/8A - LED Matrix 32x8 random pixel.mkv'>
+                                <img style='max-width:100%' src='https://raw.githubusercontent.com/mcush/shell_kit/master/thumbnail/led_matrix_random_pixel.jpg'/>
+                                </a>
+                                <br>display random pixel
                             </div>
                         </div>
                         <div class="box-item">
                             <div class="caption-title video">LED Matrix 32x8</div>
                             <div class="caption-desc">
-                                display scrolling string (horizontal)
+                                <a href='https://raw.githubusercontent.com/mcush/shell_kit/master/demo_video/8F - LED Matrix 32x8 moving string (horizontal).mkv'>
+                                <img style='max-width:100%' src='https://raw.githubusercontent.com/mcush/shell_kit/master/thumbnail/led_matrix_draw_string.jpg'/>
+                                </a>
+                                <br>display scrolling string (horizontal)
                             </div>
                         </div>
                         <div class="box-item">
                             <div class="caption-title video">LED Matrix 32x8</div>
                             <div class="caption-desc">
-                                display clock
+                                <a href='https://raw.githubusercontent.com/mcush/shell_kit/master/demo_video/8C - LED Matrix 32x8 clock.mkv'>
+                                <img style="max-width:100%" src='https://raw.githubusercontent.com/mcush/shell_kit/master/thumbnail/led_matrix_digital_clock.jpg'/>
+                                </a>
+                                <br>display digital clock
                             </div>
                         </div>
                         <div class="box-item">
                             <div class="caption-title video">LED Strap</div>
                             <div class="caption-desc">
-                                rainbow effect
+                                <a href='https://raw.githubusercontent.com/mcush/shell_kit/master/demo_video/10B - LED Strap (short) scrolling rainbow.mkv'>
+                                <img style='max-width:100%' src='https://raw.githubusercontent.com/mcush/shell_kit/master/thumbnail/led_strap_rainbow.jpg'/>
+                                </a>
+                                <br>rainbow effect
                             </div>
                         </div>
                         <div class="box-item">
                             <div class="caption-title video">LED Strap</div>
                             <div class="caption-desc">
-                                random color switch
+                                <a href='https://raw.githubusercontent.com/mcush/shell_kit/master/demo_video/10A - LED Strap (short) random color.mkv'>
+                                <img style='max-width:100%' src='https://raw.githubusercontent.com/mcush/shell_kit/master/thumbnail/led_strap_random.jpg'/>
+                                </a>
+                                <br>random color switch
                             </div>
                         </div>
                     </div>
@@ -192,12 +253,6 @@
 
 
 
-                    </div>
-                </div>
-            </div>
-            <div id="sales" class="section tint_blue">
-                <div class="section-desc">
-                    <div class="block-wrapper">
                     </div>
                 </div>
             </div>
