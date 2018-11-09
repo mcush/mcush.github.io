@@ -1,18 +1,139 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Shell Lab</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  <link rel="stylesheet" href="/css/style.css">
-</head>
-
-<body>
-
-Shell Lab page is in development
-	
-</body>
+<html lang="zh_cn">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <meta name="fragment" content="!">
+        <title>Shell Lab Homepage</title>
+        <link rel="icon" href="../images/logo_inv_64.png">
+        <link rel="shortcut icon" href="../images/logo_inv_64.png"/>
+        <link rel="stylesheet" href="../styles/bootstrap.min.css">
+        <link rel="stylesheet" href="../styles/animate.min.css">
+        <link rel="stylesheet" href="../styles/bootstrap-off-canvas-nav.css">
+        <link rel="stylesheet" href="../styles/main.min.css">
+        <script src="../scripts/jquery.min.js"></script>
+        <script src="../scripts/bootstrap.min.js"></script>
+        <script src="../scripts/site.js"></script>
+        <script src="../scripts/index.js"></script>
+    </head>
+    <body data-spy="scroll" data-target="#header" data-offset="0" class="off-canvas-nav-left">
+        <nav id="header" class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Navigator bar</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a id="homeLink" href="#home" class="navbar-brand">
+                        <img class="logo" src="../images/logo_txt.png"/>
+                    </a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#hardware">Hardware</a>
+                        </li>
+                        <li>
+                            <a href="#software">Software</a>
+                        </li>
+                        <li>
+                            <a href="#videos">Videos</a>
+                        </li>
+                        <li>
+                            <a href="#sales">Sales</a>
+                        </li>
+                        <li>
+                            <a href="./index_cn.html">中文</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="content">
+            <div id="brief" class="section dark_blue">
+                <h1 class="section-title">Brief</h1>
+                <div class="section-desc">
+                    <div class="block-wrapper">
+                    Shell Lab is MCUSH-based DAQ and controller specially designed for research/experiments/testing.<br>
+                    <br>
+                    Some uses cases includes:<br>
+                    <table border="0" align='center'>
+                    <tr> <td align='left'>
+                    <li>Teachers design experiments/demos for students.</li>
+                    <li>Product tester engineers run their test cases before new product launch.</li>
+                    <li>When they are finally launched, automation tests will run in manufacturing.</li>
+                    <li>Laboratory scientists use Shell Kit as additional tool for new research.</li>
+                    </td> </tr>
+                    </table>
+                    <br>
+                    What can it do control the real-world with Python:<br>
+                    <table border="0" align='center'>
+                    <tr> <td align='left'>
+                    <li>Digital pins input/output control.</li>
+                    <li>Measure analog voltage level.</li>
+                    <li>Sample analog signal waveform and analyze (eg. FFT).</li>
+                    <li>Digital bus control such as I2C, SPI, Dallas 1-wire.</a></li>
+                    <li>Customized DAC output as signal generator.</li>
+                    </td> </tr>
+                    </table>
+                    </div>
+                </div>
+            </div>
+            <div id="hardware" class="section tint_blue">
+                <h1 class="section-title">Hardware</h1>
+                <div class="section-desc">
+                    <div class="block-wrapper">
+                        <img style='max-width:100%' src='images/prototype.png'/><br>
+                        <img style='max-width:100%' src='images/prototype2.png'/><br>
+                        <img style='max-width:100%' src='images/prototype3.png'/><br>
+                        Still in development<br>
+                    </div>
+                </div>
+            </div>
+            <div id="software" class="section dark_blue">
+                <h1 class="section-title">Software</h1>
+                <div class="section-desc">
+                    <div class="block-wrapper">
+                    </div>
+                </div>
+            </div>
+            <div id="videos" class="section tint_blue">
+                <h1 class="section-title">Videos</h1>
+                <div class="section-desc">
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div id="download" class="hidden-xs col-sm-4">
+                        <ul>
+                            <li><b>Workbench Software</b></li>
+                            <li><a href="http://github.com/mcush/shell_lab/raw/master/app_dist/shell_lab_setup_v1.0.exe" target="_blank">shell_lab_setup.exe</a></li>
+                        </ul>
+                    </div>
+                    <div id="sales" class="col-xs-12 col-sm-4">
+                        <ul>
+                            <li><b>Sales</b></li>
+                            <li>Tel: +86-15001867884 (Mr. Peng)</a></li>
+                            <li>Email: <a href="mailto:mcu_shell@163.com">mcu_shell@163.com</a></li>
+                            <li>eBay: <a href=''>preparing</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <img class="img-responsive" src="images/qrcode.png" alt="http://mcush.com/shell-lab">
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <script>
+                    $("#footer .copyright").text("© " + new Date().getFullYear() + " MCUSH Development Team");
+                </script>
+            </div>
+        </footer>
+        </div>
+    </body>
 </html>
