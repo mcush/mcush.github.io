@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
         <meta name="fragment" content="!">
-        <title>MCUSH首页</title>
+        <title>MCUSH Homepage</title>
         <link rel="icon" href="images/logo_inv_64.png">
         <link rel="shortcut icon" href="images/logo_inv_64.png"/>
         <link rel="stylesheet" href="styles/bootstrap.min.css">
@@ -37,26 +37,26 @@
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
-                            <a href="#product">产品</a>
+                            <a href="#product">Product</a>
                             <ul class="dropdown-menu animated fadeIn">
-                                <li><a href="shell-kit/index_cn.html">Shell Kit</a></li>
+                                <li><a href="shell-kit/index.html">Shell Kit</a></li>
                                 <li><a href="shell-lab/index.html">Shell Lab</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="#solution">解决方案</a>
+                            <a href="#solution">Solution</a>
                         </li>
                         <li>
-                            <a href="#service">服务</a>
+                            <a href="#service">Service</a>
                         </li>
                         <li>
-                            <a href="#document">文档</a>
+                            <a href="#document">Document</a>
                         </li>
                         <li>
                             <a href="https://github.com/pengshulin/mcush">Github</a>
                         </li>
                         <li>
-                            <a href="./index.html">English</a>
+                            <a href="./index_cn.html">中文</a>
                         </li>
                     </ul>
                 </div>
@@ -69,10 +69,10 @@
                         <img class="img-responsive" src="images/slide_01.jpg"></img>
                         <div class="carousel-caption">
                             <p class="caption-title truncated-desc">
-                                全栈式开源解决方案
+                                Full-stack open source solutions
                             </p>
                             <p class="caption-desc truncated-desc">
-                                从硬件、固件、测试脚本到用户端程序的完整开源方案
+                                All open sourced from hardware, firmware, test script to user-end application.
                             </p>
                         </div>
                     </div>
@@ -80,10 +80,10 @@
                         <img class="img-responsive" src="images/slide_02.jpg"></img>
                         <div class="carousel-caption" >
                             <p class="caption-title truncated-desc">
-                                可配置、可扩展的架构
+                                Configurable and extendable architecture
                             </p>
                             <p class="caption-desc truncated-desc">
-                                基于FreeRTOS，交互式终端，为了你的应用准备就绪
+                                FreeRTOS based, interactive shell equipped, ready for your applications.
                             </p>
                         </div>
                     </div>
@@ -91,25 +91,26 @@
                         <img class="img-responsive" src="images/slide_03.jpg"></img>
                         <div class="carousel-caption">
                             <p class="caption-title truncated-desc">
-                                易于设计、测试
+                                Easy to design and test
                             </p>
                             <p class="caption-desc truncated-desc">
-                                基于Python脚本的环境, 适用于初学者和专家
+                                Python script based environment, suitable for both begineers and experts.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
             <div id="product" class="section dark_blue">
-                <h1 class="section-title">产品</h1>
+                <h1 class="section-title">Product</h1>
                 <div class="section-desc">
                     <div class="block-wrapper">
                         <div class="box-item">
                             <div class="caption-title education">Shell Kit</div>
                             <div class="caption-desc">
-                            <a href="shell-kit/index_cn.html">
-                            MCUSH微型控制器，各种电子模块，再配上一款易用的工作台软件，Shell Kit帮助儿童/学生开启他们的Python之旅。<br>
-                            当会用Python控制硬件后，他们的创造力会被点燃。
+                            <a href="shell-kit/index.html">
+                            MCUSH tiny controller, various electronics modules, companied with an easy-to-use workbench software,
+                            Shell Kit helps kids/students startup their Python tutorial.<br>
+                            After being able to control the hardware with Python, their creativity will be inspired.
                             </a>
                             </div>
                         </div>
@@ -117,7 +118,7 @@
                             <div class="caption-title laboratory">Shell Lab</div>
                             <div class="caption-desc">
                             <a href="shell-lab/index.html">
-                            基于MCUSH的数据采集仪和控制器，工业级设计。Shell Lab帮助你用Python控制真实的世界。
+                            MCUSH-based DAQ and controller, industrial level design.  Shell Lab helps you controlling the real-world with Python.
                             </a>
                             </div>
                         </div>
@@ -125,77 +126,75 @@
                 </div>
             </div>
             <div id="solution" class="section tint_blue">
-                <h1 class="section-title">解决方案</h1>
+                <h1 class="section-title">Solution</h1>
                 <div class="section-desc">
                     <div class="block-wrapper">
                         <div class="box-item">
-                            <div class="caption-title education">教育</div>
+                            <div class="caption-title education">Education</div>
                             <div class="caption-desc">
-                            儿童/学生使用ShellKit学习Python，搭建电子积木模块实验 
+                            Kids/students study python and make electronic module experiments with Shell Kit.
                             </div>
                         </div>
                         <div class="box-item">
-                            <div class="caption-title laboratory">实验室</div>
+                            <div class="caption-title laboratory">Laboratory</div>
                             <div class="caption-desc">
-                            科研人员/教师使用ShellLab辅助完成实验测试/教学演示
+                            Scientists/researchers/teachers make laboratory experiments/tests/demos with Shell Lab.
                             </div>
                         </div>
                         <div class="box-item">
-                            <div class="caption-title test">测试</div>
+                            <div class="caption-title test">Test</div>
                             <div class="caption-desc">
-                            产品工程师使用ShellLab搭建自动化测试环境
+                            Product engineers use Shell Lab to setup automation test environments.
                             </div>
                         </div>
                         <div class="box-item">
-                            <div class="caption-title design">设计</div>
+                            <div class="caption-title design">Design</div>
                             <div class="caption-desc">
-                            将MCUSH代码融入你的产品项目，加速开发/测试过程（需要商业授权）
+                            Merge MCUSH codes into your products/projects to speedup the development/test cycles (needs commercial authorization).
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div id="service" class="section dark_blue">
-                <h1 class="section-title">服务</h1>
+                <h1 class="section-title">Service</h1>
                 <div class="section-desc">
                     <div class="block-wrapper">
                         <div class="box-item">
-                            <div class="caption-title service">软件咨询</div>
+                            <div class="caption-title service">Software consult</div>
                             <div class="caption-desc">
-                            软件技术咨询，包括C、Python等
+                            Software technologies consult including C, Python etc.
                             </div>
                         </div>
                         <div class="box-item">
-                            <div class="caption-title service">固件开发</div>
+                            <div class="caption-title service">Firmware development</div>
                             <div class="caption-desc">
-                            基于MCUSH平台的原型机/产品设计，固件开发/测试
+                            Prototype/product design, firmware development based on MCUSH platform.
                             </div>
                         </div>
                         <div class="box-item">
-                            <div class="caption-title service">PC工具开发</div>
+                            <div class="caption-title service">PC tools development</div>
                             <div class="caption-desc">
-                            为集成了MCUSH的产品编写配套的PC测试工具和应用程序
+                            Design PC-based tests/applications that communicate with MCUSH platform.
                             </div>
                         </div>
                         <div class="box-item">
-                            <div class="caption-title service">授权</div>
+                            <div class="caption-title service">Authorization</div>
                             <div class="caption-desc">
-                            我们为集成MCUSH的产品/方案提供商业授权
+                            We provide authorization for commercial use of MCUSH-integrated products/solutions.
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div id="document" class="section tint_blue">
-                <h1 class="section-title">文档</h1>
+                <h1 class="section-title">Document</h1>
                 <div class="section-desc">
                     <div class="block-wrapper">
-                        <ul align='left'>
-                            <li><a href="doc/mcush_architecture.pdf" target="_blank">MCUSH 架构(pdf)</a></li>
-                            <li><a href="doc/mcush_develop_test_env_cn.pdf" target="_blank">MCUSH 开发测试环境说明(pdf)</a></li>
-                            <li><a href="doc/mcush_basic_commands_cn.pdf" target="_blank">MCUSH 基础命令使用说明(pdf)</a></li>
-                            <li><a href="doc/mcush_extra_commands_cn.pdf" target="_blank">MCUSH 扩展命令使用说明(pdf)</a></li>
-                        </ul>
+                            <li><a href="doc/mcush_architecture.pdf" target="_blank">MCUSH architecture(pdf)</a></li>
+                            <li><a href="doc/mcush_develop_test_env_cn.pdf" target="_blank">MCUSH develop test environment(pdf)</a></li>
+                            <li><a href="doc/mcush_basic_commands_cn.pdf" target="_blank">MCUSH basic commands manual(pdf)</a></li>
+                            <li><a href="doc/mcush_extra_commands_cn.pdf" target="_blank">MCUSH extra commands manual(pdf)</a></li>
                     </div>
                 </div>
             </div>
@@ -204,21 +203,21 @@
             <div class="container">
                 <div class="row">
                     <div id="contact" class="col-xs-12 col-sm-9">
-                        <ul>
-                            <li><b>联系我们</b></li>
-                            <li>上海林控软件技术有限公司</li>
-                            <li>电话: +86 150-0186-7884 (彭先生)</a></li>
-                            <li>电子邮件: <a href="mailto:trees_peng@linkongsoft.com">trees_peng@linkongsoft.com</a></li>
+                        <ul id="contact">
+                            <li><b>Contact us</b></li>
+                            <li>Shanghai Linkong Software Technologies Co., Ltd.</li>
+                            <li>Tel: +86 150-0186-7884 (Mr. Peng)</a></li>
+                            <li>Email: <a href="mailto:trees_peng@linkongsoft.com">trees_peng@linkongsoft.com</a></li>
                         </ul>
                     </div>
                     <div class="col-xs-12 col-sm-3">
-                        <img class="img-responsive" src="images/wx_code.jpg" alt="微信服务号">
+                        <img class="img-responsive" src="images/wx_code.jpg" alt="Weixin Service">
                     </div>
                 </div>
             </div>
             <div class="copyright">
                 <script>
-                    $("#footer .copyright").text("© " + new Date().getFullYear() + " MCUSH开发团队");
+                    $("#footer .copyright").text("© " + new Date().getFullYear() + " MCUSH Development Team");
                 </script>
             </div>
         </footer>
